@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Lato%7cOpen+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="container">
+		<div id="topBar">
+			<p class="barText">Sign In</p>
+			<p class="barText">Support</p>
+			<p class="barText"><span id="subscribe">Subscribe</span></p>
+
+			<!-- <nav id="socialMedia">
+				<ul>
+					<li><a href="images/googleplus-icon.png"></a></li>
+					<li><a href="images/facebook-square-icon.png"></a></li>
+					<li><a href="images/twitter-icon.png"></a></li>
+				</ul>
+			</nav> -->
+		</div>
+		<header id="mainHeader">
+			<h1 class="hidden">Contact</h1>	 
+
+			<div id="logo">
+				 <img src="images/logo.png" alt="TRAA Logo"> 
+			</div>
+
+			<nav id="mainNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="newsletter.html">Newsletter</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="links.html">Links</a></li>
+				</ul>
+			</nav>
+			<h2 class="hidden">Main Navigation</h2>
+		</header>
+
+		<section id="mainContact"> 
+                    <h2>FILL THE FORM AND GET IN TOUCH</h2>
+            <section id="contactArea">
+                <h2 class="hidden">Contact form</h2> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (required)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+
+                    <label for="enquiry">Nature of Enquiry</label>
+                     <select id="enquiry" name="enquiries">
+                       <option value="reviews">donations</option>
+                       <option value="recipes">membership</option>
+                       <option value="other">other</option>
+                      </select>
+
+                      <br>
+                    
+                    <label for="comment">Comments: (required)</label>
+                    <textarea name="comments" id="comment" required cols="50" rows="8"></textarea>
+                    
+                    <label for="human">Enter Code Below: (required)</label>
+                    <input type="text" required id="human" size="30" placeholder="CapTcHA">
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+        </section>
+
+          <section id="mapArea">
+          	<h2 class="hidden">Map Area</h2>
+    	     <div id="map">
+    	     	<img src="images/WOGPA_map.jpg" alt="Map of Area">
+    	     </div>
+    	  </section>
+
+    </section>
+
+
+		<footer id="mainFooter">
+			<nav id="footerNav">
+				<h2 class="hidden">Footer Navigation</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="newsletter.html">Newsletter</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="links.html">Links</a></li>
+				</ul>
+			</nav>
+
+			<div id="copyright">
+				<p>&copy; 2019 TRAA</p>
+			</div>
+		</footer>
+
+	</div>
+
+</body>
+</html>
